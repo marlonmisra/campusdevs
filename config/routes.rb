@@ -1,4 +1,11 @@
 Campusdevs::Application.routes.draw do
+  root to: 'static_pages#home'
+
+  get '/about',    to: 'static_pages#about'
+  get '/team',     to: 'static_pages#team'
+  get '/contact',  to: 'static_pages#contact'
+end
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +60,3 @@ Campusdevs::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
