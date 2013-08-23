@@ -5,9 +5,15 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def team
+  def blog
+  end
+
+  def resources
   end
 
   def contact
+  end
+
+  def register
   end
 end
