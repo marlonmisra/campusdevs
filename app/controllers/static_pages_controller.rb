@@ -8,12 +8,10 @@ class StaticPagesController < ApplicationController
   def blog
   end
 
-  def resources
-  end
-
   def contact
   end
 
   def register
   end
+
 end

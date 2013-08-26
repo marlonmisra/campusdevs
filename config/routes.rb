@@ -1,11 +1,13 @@
 Campusdevs::Application.routes.draw do
   root to: 'static_pages#home'
 
-  get '/about',    to: 'static_pages#about'
-  get '/blog',     to: 'static_pages#blog'
-  get '/resources',to: 'static_pages#resources'
-  get '/contact',  to: 'static_pages#contact'
-  get '/register', to: 'static_pages#register'
+  get 'about',    to: 'static_pages#about'
+  get 'blog',     to: 'static_pages#blog'
+  get 'contact',  to: 'static_pages#contact'
+  get 'register', to: 'static_pages#register'
+  get 'resources/coding',           to: 'static_pages#coding'
+  get 'resources/careers',          to: 'static_pages#careers'
+  get 'resources/entrepreneurship', to: 'static_pages#entrepreneurship'
 end
   
   # The priority is based upon order of creation: first created -> highest priority.

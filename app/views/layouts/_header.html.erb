@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -14,15 +14,14 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li class="active"><%= link_to "About", about_path %></li>
+      <li><%= link_to "About", about_path %></li>
       <li><%= link_to "Blog", blog_path %></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><%= link_to "Action 1", about_path %></li>
-          <li><%= link_to "Action 2", about_path %></li>
-          <li><%= link_to "Action 3", about_path %></li>
-          <li><%= link_to "Action 4", about_path %></li>
+          <li><%= link_to "Coding", resources_coding_path %></li>
+          <li><%= link_to "Careers", resources_careers_path %></li>
+          <li><%= link_to "Entrepreneurship", resources_entrepreneurship_path %></li>
         </ul>
       </li>
     </ul>
