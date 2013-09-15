@@ -221,7 +221,7 @@ function mce_success_cb(resp){
                 var input_id = '#mc_embed_signup';
                 var f = $(input_id);
                 if (ftypes[index]=='address'){
-                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    input_id = '#mce-'+ ftypes[index] +'-addr1';
                     f = $(input_id).parent().parent().get(0);
                 } else if (ftypes[index]=='date'){
                     input_id = '#mce-'+fnames[index]+'-month';
