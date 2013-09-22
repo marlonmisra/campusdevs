@@ -2,7 +2,7 @@ Campusdevs::Application.routes.draw do
   root to: 'static_pages#home'
 
   get 'about',    to: 'static_pages#about'
-  get 'blog',     to: 'static_pages#blog'
+  get 'sponsors',     to: 'static_pages#sponsors'
   get 'contact',  to: 'static_pages#contact'
   get 'register', to: 'static_pages#register'
   get 'resources/coding',           to: 'static_pages#coding'
