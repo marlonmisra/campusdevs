@@ -3,13 +3,15 @@ body { padding-top: 50px; }
 table.standard
 { 
 	width:80%;
+	position: relative;
+	left: 15px;
 }
 
 
 td, tr, th
 { 
 	border: 1px solid black;
-	padding: 4px;
+	padding: 5px;
 }
 
 div.thumbnail
