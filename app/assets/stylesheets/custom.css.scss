@@ -1,2 +1,22 @@
 @import "twitter/bootstrap";
 body { padding-top: 50px; }
+table.standard
+{ 
+	width:80%;
+}
+
+
+td, tr, th
+{ 
+	border: 2px solid black;
+	padding: 4px;
+}
+
+div.thumbnail
+{
+	border: 2px solid black;
+}
+
+
+
+
