@@ -3,7 +3,9 @@ desc "Pings PING_URL to keep a dyno alive"
       require "net/http"
 
       if ENV['PING_URL']
-        uri = URI(ENV['http://www.campusdevs.com/'])
+        uri = URI(ENV['PING_URL'])
         Net::HTTP.get_response(uri)
       end
     end
+
+# 'http://www.campusdevs.com/'
