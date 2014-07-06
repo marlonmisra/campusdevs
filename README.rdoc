@@ -1,6 +1,6 @@
 == README
 
-Campusdevs is a simple Bootstrap website that serves as the portal for members of the club.
+Campusdevs is a simple Bootstrap website that serves as the portal for members of the club. The website resides at www.campusdevs.com. 
 
 Main uses for this portal include:
 
