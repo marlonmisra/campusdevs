@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Campusdevs is a simple Bootstrap website that serves as the portal for members of the club.
 
-Things you may want to cover:
+Main uses for this portal include:
 
-* Ruby version
+* Information for new members
 
-* System dependencies
+* Registration for new members
 
-* Configuration
+* Collection of resources for entrepreneurship and programming
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Locations and times of meetings
 
 
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
